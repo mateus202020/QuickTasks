@@ -1,0 +1,43 @@
+.text_field{
+    color: var( --content-tertiary);
+    border-color: var(--border-primary);
+    border-radius: 6px;
+    width: 26.8rem;
+    height: 2.75rem;
+    padding-inline: 18px;
+    
+}
+
+.text_field:hover{
+    border-color: var( --border-hover);
+   
+}
+
+.active{
+    border-color: var(--color-brand);
+    color: var(--content-primary);
+    
+}
+
+.checkbox{
+    width: 1rem;
+    height: 1rem;
+    border-color: var(--border-primary);
+    background-color: var(--background-secondary);
+    border-radius: 50%;
+    
+}
+
+.checkbox:hover{
+    border-color: var(--border-hover);
+    text-decoration: none;
+}
+
+.select{
+    background-color: var(--color-brand);
+    color: var();
+}
+
+@media (width < 390px ) {
+    
+}

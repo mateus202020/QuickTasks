@@ -1,0 +1,14 @@
+.logo{
+    display: flex;
+    gap: 7px;
+    font-weight: var(--fw-bold);
+    font-size: var(--fs-xl);
+    padding-inline: 40%;
+    padding-block: 25px;
+   
+}
+
+@media (width < 390px ) {
+    .logo{
+        display: none;    }
+}

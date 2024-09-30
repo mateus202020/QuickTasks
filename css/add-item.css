@@ -1,0 +1,11 @@
+.add-item{
+    display: flex;
+    gap: 1rem;
+    width: 627px;
+   
+    margin-inline: 20%;
+}
+
+@media (width < 390px){
+   
+}

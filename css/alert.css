@@ -1,0 +1,39 @@
+.alert{
+    margin-top: 50px;
+    display: flex;
+    gap: 8px;
+    padding-block: 12px;
+    border-radius: 12px;
+    background-color: var(--color-danger);
+    width: 627px;
+    margin-inline: 200px;
+    padding-inline: 12px;
+    padding-block: 12px;
+    align-items: center;
+
+    .item{
+        display: flex;
+        gap: 12px;
+        align-items: center;
+        p{
+            width: 531px;
+            color: var(--always-white);
+        }
+    }
+}
+
+.btn-remv{
+    width: 20px;
+    cursor: pointer;
+    border: none;
+    background-color: var(--color-danger);
+    color: var(--always-white);
+    
+}
+
+
+@media (width < 390px){
+    
+    
+    
+}

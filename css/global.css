@@ -1,0 +1,78 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    font: inherit;
+}
+
+:root{
+    --background-primary: #F4F5FB;
+    --background-secondary: #FFFFFF;
+
+    --color-brand: #CA3884;
+    --color-brand-hover: #A52C6B;
+    --color-danger: #C93847;
+
+    --content-primary: #080B12;
+    --content-secondary: #374151;
+    --content-tertiary: #9CA3AF;
+    --always-white: #FFFFFF;
+
+    --border-primary: #D1D5DB;
+    --border-hover: #B9C2D0;
+
+    --ff-sans: "Inter", sans-serif;
+    --fw-sb: 400;
+    --fw-md: 500;
+    --fw-bold: 800;
+
+    --fs-sm: 0.875rem;
+    --fs-base: 1;
+    --fs-xl: 1.5rem;
+}
+
+html{
+    font-family: var(--ff-sans);
+    font-weight: var(--fw-sb);
+    font-size: var(--fs-base);
+    background-color: var(--background-primary);
+}
+
+.container{
+    display: grid;
+    justify-content: center;
+    max-width: 1280px;
+    margin: auto;
+}
+
+a{
+    color: var(--color-brand);
+    cursor: pointer;
+    text-decoration: none;
+  
+    margin-inline: 200px;
+}
+
+h2{
+    color: var(--content-primary);
+    font-weight: var(--fw-bold);
+    font-size: var(--fs-xl);
+    padding-top: 20px;
+    padding-bottom: 50px;
+    padding-inline: 200px;
+}
+
+
+@media (width < 390px) {
+   
+    .container{
+        display: grid;
+        justify-content: center;
+        max-width: 390px;
+        margin: auto;
+    }
+    a{
+       align-items: center;
+       
+    }
+}

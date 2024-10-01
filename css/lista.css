@@ -1,6 +1,5 @@
 .lista{
     padding-top: 50px;
-    padding-inline: 200px;
     display: grid;
     gap: 12px;
 }
@@ -14,15 +13,14 @@
     background-color: var( --background-secondary);
     align-items: center;
     border-radius: 12px;
-
-    .item{
-        display: flex;
-        gap: 12px;
-        align-items: center;
+   
         p{
-            width: 531px;
+            padding-right: 83%;
         }
-    }
+}
+
+.delete{
+    display: none;
 }
 
 .btn-delete{
@@ -30,6 +28,7 @@
     cursor: pointer;
     border: none;
     background-color: var(--background-secondary);
+    
 }
 
 @media ( width < 390px){

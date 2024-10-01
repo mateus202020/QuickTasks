@@ -50,7 +50,7 @@ a{
     cursor: pointer;
     text-decoration: none;
   
-    margin-inline: 200px;
+   
 }
 
 h2{
@@ -59,7 +59,7 @@ h2{
     font-size: var(--fs-xl);
     padding-top: 20px;
     padding-bottom: 50px;
-    padding-inline: 200px;
+   
 }
 
 

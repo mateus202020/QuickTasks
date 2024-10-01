@@ -23,56 +23,25 @@
         <a href="#"><-Voltar</a>
         <h2>Compras da semana</h2>
 
-        <div class="add-item">
-            <input class="text_field" type="text" name="input" value="Adicione um novo item">
-            <button class="btn">Adicionar item</button>
-        </div>
+        <form class="add-item">
+                <input class="text_field" type="text" name="input" placeholder="Adicione um novo item">
+                <button class="btn">Adicionar item</button>
+        </form>
 
         <div class="lista">
-            <div class="items">
-                <input class="checkbox select" type="checkbox">
-                <div class="item">
-                    <p>Pão de forma</p>
-                    <button class="btn-delete"><img src="./img/Frame (3).svg"></button>
-                </div>
-            </div> 
-
-            <div class="items">
-                <input class="checkbox select" type="checkbox">
-                <div class="item">
-                    <p>Café preto</p>
-                    <button class="btn-delete"><img src="./img/Frame (3).svg"></button>
-                </div>
-            </div> 
-
-            <div class="items">
-                <input class="checkbox select" type="checkbox">
-                <div class="item">
-                    <p>Suco de laranja</p>
-                    <button class="btn-delete"><img src="./img/Frame (3).svg"></button>
-                </div>
-            </div> 
-
-            <div class="items">
-                <input class="checkbox select" type="checkbox">
-                <div class="item">
-                    <p>Bolacha</p>
-                    <button class="btn-delete"><img src="./img/Frame (3).svg"></button>
-                </div>
-            </div> 
            
-        </div>
+        </div> 
+           
 
-        <div class="alert">
+        <footer>
             <img src="./img/warning-circle-filled.svg">
-            <div class="item">
-                <p>O item foi removido da lista</p>
-                <button class="btn-remv"><img src="./img/delete-small.svg"></button>
-            </div>
-        </div>
-
+            <p>O item foi removido da lista</p>
+            <button id="btn-remv"><img src="./img/delete-small.svg"></button>
+        </footer>
+        
+        
     </section>
     
-
+    <script src="./script.js"></script>
 </body>
 </html>

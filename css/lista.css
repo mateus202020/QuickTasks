@@ -13,10 +13,13 @@
     background-color: var( --background-secondary);
     align-items: center;
     border-radius: 12px;
-   
-        p{
-            padding-right: 83%;
-        }
+    
+    button{
+        display: flex;
+        justify-content: flex-end;
+        margin-left: auto;
+    }
+       
 }
 
 .delete{

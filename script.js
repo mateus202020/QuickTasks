@@ -13,7 +13,7 @@ form.addEventListener("submit", (e) => {
     const item = document.createElement("div");
     item.innerHTML = `
             <div class="items">
-                <input class="checkbox select" type="checkbox">
+                <input class="checkbox" type="checkbox">
                 <p>${valor}</p>
                 <button class="btn-delete"><img src="./img/Frame (3).svg"></button>
             </div>
